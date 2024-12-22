@@ -5,7 +5,12 @@
 }
 
 body {
+    background-image: url('https://aicdn.picsart.com/541724d7-91c8-4b5d-aed5-04625219b2a0.png');
     background-color: var(--bg-dark);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     margin: 0;
     padding: 0;
     min-height: 100vh;
@@ -15,6 +20,7 @@ body {
     font-family: monospace;
     color: #fff;
 }
+
 
 .discord-link {
     position: relative;
